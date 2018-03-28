@@ -18,7 +18,7 @@ public interface LoginDao {
     public Login getLoginCredential(Integer id, String username);
 
     public User getUserProfile(Integer id);
-    
+
     public List<User> getUsers();
 
 }
